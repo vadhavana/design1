@@ -1,2 +1,35 @@
 body{
+    background: url("img/bg1.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.con1{
+    background: #ffffff;
+    margin-top: 50px;
+    height: 550px;
+    
+     
+}
+.card{
+    background: #f1f2f6;
+    height: 480px;
+    margin-top: 50px;
+    margin-right: 3%;
+    margin-left: 3%;
+     
+}
+.card1{
+    background: #ffffff;
+    height: 400px;
+    margin-right: 3%;
+    margin-left: 4%;
+}
+.card #mp{
+    opacity: 0.5;
+    padding: 10px;
+    text-align: left;
+    margin-left: 4%;
+    display: inline-block;
+}
+.card #ep{
+display: inline-block;
 }
