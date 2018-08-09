@@ -33,3 +33,21 @@ body{
 .card #ep{
 display: inline-block;
 }
+#button1{
+    align-self: end;
+    border:1px #2cd071 solid;   
+    padding:10px;
+    width: 80px;
+    float: right;
+    margin-right: 4%;
+    margin-top: 1%;
+    background-color:#2cd071;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    border-radius:40px;
+    color: #ffffff;
+}
+#button1:hover{
+    background-color: green; /* Green */
+    color: white;
+}
