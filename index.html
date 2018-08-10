@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" >
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap.css">
     <title>Design1</title>
@@ -13,11 +15,132 @@
             <div class="card">
                  <h4 id="mp">My profile ></h4><h4 id="ep">Edit profile</h4>     
                  <input id="button1" type="submit" value="Save  &#8594;" />
-                <br>          
+                    <br>          
                    <div class="card1">
+                       <div class="row">
+                            <form action="#" method="#" class="form-nline">
+                                 <div class="col-sm-6 leftside text-dark">
+                                    <img src="img/rv.jpg" alt="Avatar" class="avatar"><i class="fas fa-plus"></i><br>
+                                    
+                                        <div class="form-group col-md-6">
+                                                <label>First Name</label>
+                                                <input type="text" class="form-control" name="fn" id="fn" placeholder="Enter First Name" required>
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                                <label>Last Name</label>
+                                                <input type="text" class="form-control" name="ln" id="ln" placeholder="Enter Last Name" required>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                                <label>Password</label>
+                                                <input type="password" class="form-control" name="ln" id="ln" placeholder="Enter Password " required>
+                                                <div class="input"><a href="#">CHANGE PASSWORD</a></div>
+                                        </div>
+                                    
+                                        <div class="form-group col-md-12">
+                                                <label>Email</label>
+                                                <input type="text" class="form-control" name="email" id="email" placeholder="Enter Your Email " required>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                                <label>Phone</label>
+                                                <input type="number" min="0" class="form-control" name="phone" id="phone" placeholder="Enter Your Phone " required>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                                <label>Address</label>
+                                                <input type="text" class="form-control" name="addr" id="addr" placeholder="Enter Your Address " required>
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                                <label>Nation</label>
+                                                <input type="text" class="form-control" name="nation" id="nat" placeholder="Enter Your Nation " required>
+                                        </div>
+                                    
+
+                                </div>
+                                    <div class="col-sm-6 rightside text-dark">
+                                            <div class="form-group col-md-6">
+                                                <br>
+                                                    <label for="inputGender">Gender</label>
+                                                    <select id="inputGender" class="form-control">
+                                                            <option selected>Choose...</option>
+                                                            <option>Male</option>
+                                                            <option>Female</option>
+                                                            <option>Other</option>
+                                                     </select>
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                    <br>
+                                                        <label for="inputLanguage">Language</label><label for="cancel" class="cancel">Cancel &nbsp;</label><a href="#">X</a>
+                                                        <select id="inputLanguage" class="form-control">
+                                                                <option selected>Choose...</option>
+                                                                <option>English</option>
+                                                                <option>Hindi</option>
+                                                                <option>Other</option>
+                                                         </select>
+                                                </div>
+                                                <div class="form-group ">
+                                                    <div class="col-md-3">
+                                                            <label for="DOB">Date Of Birth</label>
+                                                            <select id="DOB" class="form-control" name="month">
+                                                                    <option selected>Month</option>
+                                                                    <option>January</option>
+                                                                    <option>February</option>
+                                                                    <option>March</option>
+                                                                    <option>April</option>
+                                                                    <option>May</option>
+                                                                    <option>June</option>
+                                                                    <option>July</option>
+                                                                    <option>August</option>
+                                                                    <option>September</option>
+                                                                    <option>October</option>
+                                                                    <option>November</option>
+                                                                    <option>December</option>
+                                                            </select>
+                                                            
+                                                       </div>
                     
-                        </div>
-                </div>
+                                                     </div>
+                                                     <div class="form-group col-md-3">
+                                                         <label>&nbsp;</label>
+                                                        <select class="form-control" name="day">
+                                                            <option selected>Day</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="form-group col-md-3">
+                                                            <label>&nbsp;</label>
+                                                           <select class="form-control" name="year">
+                                                               <option selected>Year</option>
+                                                           </select>
+                                                       </div>
+                                                       <div class="form-group col-md-6">
+                                                            <label>Twitter</label>
+                                                            <input type="text" class="form-control" name="twitter" id="twt" placeholder="Enter Twitter Handle" required>
+                                                        </div>
+                                                        <div class="form-group col-md-6">
+                                                                <label>LinkedIn</label>
+                                                                <input type="text" class="form-control" name="linkedin" id="lnk" placeholder="Enter Your LinkedIn" required>
+                                                            </div>
+                                                            <div class="form-group col-md-6">
+                                                                    <label>Facebook</label>
+                                                                    <input type="text" class="form-control" name="facebook" id="fb" placeholder="Enter Your Facebook " required>
+                                                                </div>
+                                                                <div class="form-group col-md-6">
+                                                                        <label>Google</label>
+                                                                        <input type="text" class="form-control" name="google" id="ggl" placeholder="Enter Google " required>
+                                                                    </div>
+                                                                    <div class="form-group col-md-12">
+                                                                            <label>Slogan</label>
+                                                                            <input type="text" class="form-control" name="slogan" id="slogan" placeholder="Land acquisition Specialist " required>
+                                                                        </div>
+                                                    
+                    
+                                                        
+
+                                </div>
+                            </form>
+                            
+                       
+                    </div>
+                   </div>
+            </div>
                
     </section>
    
