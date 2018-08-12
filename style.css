@@ -55,6 +55,7 @@ display: inline-block;
     
     height: 400px;
    /* background: #2cd071;*/
+   
      
 }
 .rightside
@@ -64,12 +65,6 @@ display: inline-block;
 }
 section div .card1{
     border: 1px solid #ebebf0 ;
-}
-
-@media(max-width:575px){
-.col-sm-6{
-    height: 100vh;
-}
 }
 .avatar {
     vertical-align: middle;
@@ -86,15 +81,57 @@ i{
     color: #a0e8bf;
     margin:-10px;
 }
-.input{
+.input a{
+    
     margin:-25px;
     margin-left: 320px;
     color: #2cd071;
     box-sizing: border-box;
     display: inline-block;
-    position: absolute;
+    position: absolute;   
+    
 }
 .cancel{
 color: #c9ced8;
 margin-left: 90px;
+}
+
+div .pay{
+    height: 30px;
+    border: 0.5px solid #c9ced8;
+}
+div .rem{
+    height: 20px;
+    border: 0.5px solid #c9ced8;
+    
+ 
+}
+.rem a{
+    text-decoration: none;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    padding: 10px;
+}
+.pay  img,p{
+    
+    display: inline;
+    text-align: right;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.add_p{
+    border: 1px dashed #c9ced8;
+    height: 50px;
+    width: 210px;;
+    margin: 25% ;
+    text-align: center;
+    color: #a7adb9;
+    right: 50%;
+}
+.add_p i{
+    display: inline-block;
+    margin-right:100px;
+    color: #a7adb9;
+    
 }
